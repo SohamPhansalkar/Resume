@@ -91,6 +91,7 @@ header {
   cursor: pointer;
   font-size: 0.9rem;
   transition: background-color 0.2s;
+  margin: 5px;
 }
 
 .theme-btn:hover {
@@ -174,5 +175,11 @@ footer {
 
   .item-header {
     flex-direction: column;
+  }
+}
+
+@media print {
+  .theme-btn {
+    display: none !important;
   }
 }
